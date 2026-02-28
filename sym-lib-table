@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PESD5V0X1BL-N")(type "KiCad")(uri "${KIPRJMOD}/kicad_api_libs/PESD5V0X1BL-N.kicad_sym")(options "Added by KiCad IPC API")(descr ""))
+)
