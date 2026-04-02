@@ -5868,7 +5868,7 @@
 				)
 			)
 		)
-		(property "Value" "143K"
+		(property "Value" "28.7K"
 			(at 196.85 115.57 90)
 			(effects
 				(font
@@ -6779,7 +6779,7 @@
 				)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "47nF"
 			(at 197.104 108.712 90)
 			(effects
 				(font
@@ -8452,7 +8452,7 @@
 				)
 			)
 		)
-		(property "Value" "4.99K"
+		(property "Value" "1K"
 			(at 163.83 117.602 90)
 			(effects
 				(font
@@ -9618,7 +9618,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "4.7uF"
 			(at 160.02 90.932 90)
 			(effects
 				(font
@@ -11775,7 +11775,7 @@
 				)
 			)
 		)
-		(property "Value" "330K"
+		(property "Value" "68K"
 			(at 160.02 101.346 90)
 			(effects
 				(font
