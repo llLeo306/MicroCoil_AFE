@@ -5034,7 +5034,7 @@
 		)
 		(uuid "118edc02-bf7b-46f8-8f67-aa484a908882")
 	)
-	(label "AGND"
+	(label "AGND_SHIELD"
 		(at 48.26 113.03 0)
 		(effects
 			(font
@@ -5624,7 +5624,7 @@
 		)
 		(uuid "bcd706eb-3a78-4953-a40c-702b4f8f05c7")
 	)
-	(label "AGND"
+	(label "AGND_SHIELD"
 		(at 48.26 104.14 0)
 		(effects
 			(font
