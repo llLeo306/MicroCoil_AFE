@@ -5044,7 +5044,7 @@
 		)
 		(uuid "13c7087b-0a6f-42d1-b9fc-d909d9664914")
 	)
-	(label "COIL_P_FILT"
+	(label "COIL_FILT_P"
 		(at 72.39 88.9 180)
 		(effects
 			(font
@@ -5094,7 +5094,7 @@
 		)
 		(uuid "1e6d9622-fd56-4368-8f6d-3dda9be2039d")
 	)
-	(label "COIL_P_RAW"
+	(label "COIL_RAW_P"
 		(at 27.94 104.14 180)
 		(effects
 			(font
@@ -5144,7 +5144,7 @@
 		)
 		(uuid "2f1d6adc-035c-42ac-a001-998697abe935")
 	)
-	(label "COIL_N_RAW"
+	(label "COIL_RAW_N"
 		(at 27.94 113.03 180)
 		(effects
 			(font
@@ -5174,7 +5174,7 @@
 		)
 		(uuid "33419a0f-65ab-4a9b-80b4-8b1e1c159de5")
 	)
-	(label "COIL_P_FILT"
+	(label "COIL_FILT_P"
 		(at 35.56 86.36 0)
 		(effects
 			(font
@@ -5214,7 +5214,7 @@
 		)
 		(uuid "3f395086-b04c-4c39-9760-bf4f57d15d6d")
 	)
-	(label "COIL_P_FILT"
+	(label "COIL_FILT_P"
 		(at 73.66 120.65 180)
 		(effects
 			(font
@@ -5224,7 +5224,7 @@
 		)
 		(uuid "3f397774-87de-4d91-bcff-a89d75e75957")
 	)
-	(label "COIL_P_RAW"
+	(label "COIL_RAW_P"
 		(at 27.94 86.36 180)
 		(effects
 			(font
@@ -5254,7 +5254,7 @@
 		)
 		(uuid "4982500c-dee3-4dfe-bb65-4937f54cb065")
 	)
-	(label "COIL_P_FILT"
+	(label "COIL_FILT_P"
 		(at 27.94 120.65 180)
 		(effects
 			(font
@@ -5284,7 +5284,7 @@
 		)
 		(uuid "5108f54c-963b-4cd5-a33d-8f4e4f5b3c02")
 	)
-	(label "COIL_N_FILT"
+	(label "COIL_FILT_N"
 		(at 72.39 91.44 180)
 		(effects
 			(font
@@ -5334,7 +5334,7 @@
 		)
 		(uuid "5c23fb22-ba8b-4313-8efc-f00ce6cd93e7")
 	)
-	(label "COIL_N_FILT"
+	(label "COIL_FILT_N"
 		(at 73.66 128.27 180)
 		(effects
 			(font
@@ -5484,7 +5484,7 @@
 		)
 		(uuid "95f99c97-d708-4f3c-89fa-3c82a004abb5")
 	)
-	(label "COIL_N_RAW"
+	(label "COIL_RAW_N"
 		(at 34.29 46.99 0)
 		(effects
 			(font
@@ -5504,7 +5504,7 @@
 		)
 		(uuid "9c63ab11-682f-4bd0-a159-98e81b56b3a9")
 	)
-	(label "COIL_N_RAW"
+	(label "COIL_RAW_N"
 		(at 27.94 95.25 180)
 		(effects
 			(font
@@ -5544,7 +5544,7 @@
 		)
 		(uuid "a9c6000e-6ae5-409e-a8d7-c049f00b793d")
 	)
-	(label "COIL_N_FILT"
+	(label "COIL_FILT_N"
 		(at 35.56 95.25 0)
 		(effects
 			(font
@@ -5654,7 +5654,7 @@
 		)
 		(uuid "c5e9949a-45c0-42d8-822b-71f99a8885c9")
 	)
-	(label "COIL_N_FILT"
+	(label "COIL_FILT_N"
 		(at 27.94 128.27 180)
 		(effects
 			(font
@@ -5754,7 +5754,7 @@
 		)
 		(uuid "f697e97b-adfc-4ee9-a37a-2962ddf0015e")
 	)
-	(label "COIL_P_RAW"
+	(label "COIL_RAW_P"
 		(at 31.75 46.99 180)
 		(effects
 			(font
