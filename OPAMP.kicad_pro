@@ -58,30 +58,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|64162279|135768843|016c3b05-abb4-41bc-ba7b-936b1f5f2eef|4aa65602-7eae-4d81-87ad-5db771361cdf",
-          ""
-        ],
-        [
-          "clearance|66541158|126865427|539d0f71-b559-41c8-a830-3bbb4590e807|f55ad035-4e9a-4f2d-b44d-2ea1f5c4b382",
-          ""
-        ],
-        [
-          "clearance|69416404|138016061|18e38043-db0f-4018-96c4-5d26867bd8e5|ddf56951-b2e3-4d00-b37f-119654d9738c",
-          ""
-        ],
-        [
-          "clearance|73071068|131478270|375b9a2f-4e90-4aec-b167-c6519eff0c41|90c152db-7510-4ba2-8dfc-9e5f6574f356",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -89,7 +72,7 @@
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
+        "drill_out_of_range": "ignore",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
@@ -239,6 +222,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -520,8 +507,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "交付/",
+      "pos_files": "交付/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -531,7 +518,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "交付\\OPAMP.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -593,14 +580,434 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "application",
+          "name": "application",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "bandwidth",
+          "name": "bandwidth",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "breakdown_voltage",
+          "name": "breakdown_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "circuit_type",
+          "name": "circuit_type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "clamping_voltage",
+          "name": "clamping_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "cmrr",
+          "name": "cmrr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "colour",
+          "name": "colour",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "contact_plating",
+          "name": "contact_plating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "contact_resistance",
+          "name": "contact_resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "current_rating",
+          "name": "current_rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "dc_resistance",
+          "name": "dc_resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "gender",
+          "name": "gender",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "height",
+          "name": "height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "huaqiu_pn",
+          "name": "huaqiu_pn",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "impedance",
+          "name": "impedance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "input_bias_current",
+          "name": "input_bias_current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "input_offset_voltage",
+          "name": "input_offset_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "input_voltage",
+          "name": "input_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "input_voltage_noise_density",
+          "name": "input_voltage_noise_density",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "lead_free",
+          "name": "lead_free",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "life_cycles",
+          "name": "life_cycles",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "logic_function",
+          "name": "logic_function",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "mount",
+          "name": "mount",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_channels",
+          "name": "number_of_channels",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_circuits",
+          "name": "number_of_circuits",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_inputs",
+          "name": "number_of_inputs",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_outputs",
+          "name": "number_of_outputs",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_positions",
+          "name": "number_of_positions",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number_of_rows",
+          "name": "number_of_rows",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "off_state_voltage",
+          "name": "off_state_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "on_state_resistance",
+          "name": "on_state_resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "operating_force",
+          "name": "operating_force",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "operating_temperature",
+          "name": "operating_temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "output_current",
+          "name": "output_current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "output_current_per_channel",
+          "name": "output_current_per_channel",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "output_type",
+          "name": "output_type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "output_voltage",
+          "name": "output_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "package",
+          "name": "package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "packaging",
+          "name": "packaging",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "peak_pulse_current",
+          "name": "peak_pulse_current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "peak_pulse_power",
+          "name": "peak_pulse_power",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "pin_number_in_each_row",
+          "name": "pin_number_in_each_row",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "pins",
+          "name": "pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "pitch",
+          "name": "pitch",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "polarity",
+          "name": "polarity",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "power_dissipation",
+          "name": "power_dissipation",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "quiescent_current",
+          "name": "quiescent_current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "reference_type",
+          "name": "reference_type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "reverse_leakage_current",
+          "name": "reverse_leakage_current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "series",
+          "name": "series",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "slew_rate",
+          "name": "slew_rate",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "supply_current",
+          "name": "supply_current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "supply_type",
+          "name": "supply_type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "supply_voltage",
+          "name": "supply_voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "switch_circuit",
+          "name": "switch_circuit",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "temperature_coefficient",
+          "name": "temperature_coefficient",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "terminal_pitch",
+          "name": "terminal_pitch",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "termination_type",
+          "name": "termination_type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "throw_configuration",
+          "name": "throw_configuration",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "tolerance",
+          "name": "tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "turn_off_delay_time",
+          "name": "turn_off_delay_time",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "turn_on_delay_time",
+          "name": "turn_on_delay_time",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "type",
+          "name": "type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "voltage",
+          "name": "voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "voltage_gain",
+          "name": "voltage_gain",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "voltage_rating",
+          "name": "voltage_rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "描述",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "位号"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
